@@ -46,7 +46,7 @@ U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
 U_MT(LGUI, S),     U_MT(LALT, H),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp COMMA,         &kp DOT,           U_MT(LSHFT, A),    U_MT(LCTRL, E),    U_MT(LALT, O),     U_MT(LGUI, I),     \
 U_LT(U_BUTTON, F), U_MT(RALT, M),     &kp V,             &kp C,             &kp SLASH,         &kp G,             &kp P,             &kp X,             U_MT(RALT, K),     U_LT(U_BUTTON, Y), \
-U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, SPACE), U_LT(U_SYM, RET),  U_LT(U_MOUSE, TAB),U_LT(U_NAV, BSPC),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_WORKMAN_FLIP \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             &kp SQT,           \
@@ -106,7 +106,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
 U_MT(LGUI, S),     U_MT(LALT, H),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp COMMA,         &kp DOT,           U_MT(LSHFT, A),    U_MT(LCTRL, E),    U_MT(LALT, O),     U_MT(LGUI, I),     \
 U_LT(U_BUTTON, F), U_MT(RALT, M),     &kp V,             &kp C,             &kp SLASH,         &kp G,             &kp P,             &kp X,             U_MT(RALT, K),     U_LT(U_BUTTON, Y), \
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, BSPC),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, SPACE), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_WORKMAN \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             &kp SQT,           \
@@ -167,7 +167,7 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
 &kp S,             &kp H,             &kp N,             &kp T,             &kp COMMA,         &kp DOT,           &kp A,             &kp E,             &kp O,             &kp I,             \
 &kp F,             &kp M,             &kp V,             &kp C,             &kp SLASH,         &kp G,             &kp P,             &kp X,             &kp K,             &kp Y,             \
-U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           &kp TAB,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
+U_NP,              U_NP,              &kp DEL,           &kp SPACE,          &kp RET,           &kp TAB,           &kp BSPC,         &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_WORKMAN_FLIP \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             &kp SQT,           \
@@ -227,7 +227,7 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 &kp W,             &kp L,             &kp R,             &kp B,             &kp Z,             &kp SQT,           &kp Q,             &kp U,             &kp D,             &kp J,             \
 &kp S,             &kp H,             &kp N,             &kp T,             &kp COMMA,         &kp DOT,           &kp A,             &kp E,             &kp O,             &kp I,             \
 &kp F,             &kp M,             &kp V,             &kp C,             &kp SLASH,         &kp G,             &kp P,             &kp X,             &kp K,             &kp Y,             \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp BSPC,         &kp TAB,           &kp RET,           &kp SPACE,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_WORKMAN \
 &kp Q,             &kp D,             &kp R,             &kp W,             &kp B,             &kp J,             &kp F,             &kp U,             &kp P,             &kp SQT,           \
